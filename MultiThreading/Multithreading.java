@@ -18,6 +18,7 @@ public class Multithreading {
 		Runnable r1 = () -> System.out.println("user"+Thread.currentThread().toString());
 		Thread t1 = new Thread(r1);
 		t1.start();
+		//For creating multi threading we have 4 ways
 		
 		
 
